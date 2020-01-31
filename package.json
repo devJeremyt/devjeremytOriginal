@@ -1,0 +1,14 @@
+{
+  "name": "devjeremyt",
+  "version": "1.0.0",
+  "description": "The code for devjeremyt.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "devjeremyt"
+  ],
+  "author": "Jeremy Trimble",
+  "license": "ISC"
+}
