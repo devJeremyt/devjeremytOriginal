@@ -1,5 +1,7 @@
 const express = require('express'),
-      app = express();
+      app = express(),
+      ejsLint = require('ejs-lint');
+      ejsLint("./views/index.js");
 
 
 //Require Routes
@@ -8,9 +10,9 @@ const indexRoutes = require('./routes/index');
 
 //Setup
 
-app.set('view engine', 'ejs');
 app.use(express.static(__dirname + "/public"));
 app.use(indexRoutes);
+app.set('view engine', 'ejs');
 
 
 
